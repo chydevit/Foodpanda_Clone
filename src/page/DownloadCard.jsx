@@ -51,7 +51,7 @@ export default function DownloadCard() {
           <img
             src="src/assets/home-foodpanda-apps.webp"
             alt="App Screen 1"
-            className="w-[420px] left-10  top-0 "
+            className="w-[420px] left-10 top-0 "
           />
         </div>
       </div>
