@@ -6,6 +6,7 @@ import HomePage from "./page/HomePage";
 import Content from "./page/Content";
 import Detail from "./page/Detail";
 import DownloadCard from "./page/DownloadCard";
+import Textdetail from "./page/Textdetail";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
       <Content />
       <Detail/>
       <DownloadCard/>
+      <Textdetail/>
       <Footer />
     </>
   );

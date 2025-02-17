@@ -4,7 +4,7 @@ export default function Content() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="text-left py-20 bg-white mx-4 md:mx-20">
+      <section className="text-left py-20 mx-4 md:mx-20">
         <h2 className="text-4xl font-bold mb-8">
           You prepare the food, we handle the rest
         </h2>

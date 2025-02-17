@@ -6,7 +6,7 @@ export default function DownloadCard() {
       <h2 className="text-2xl font-bold text-center m-6">
         Put us in your pocket
       </h2>
-      <div className="flex flex-col lg:flex-row items-center bg-pink-600 p-6 lg:p-12 rounded-3xl shadow-lg max-w-5xl mx-auto">
+      <div className="flex flex-col lg:flex-row items-center bg-pink-600 p-6 lg:p-12 rounded-3xl shadow-lg max-w-7xl mx-auto">
         {/* Left Section */}
         <div className=" text-white p-6 lg:p-10 rounded-2xl flex-1">
           <h2 className="text-2xl font-bold mb-4">
@@ -51,7 +51,7 @@ export default function DownloadCard() {
           <img
             src="src/assets/home-foodpanda-apps.webp"
             alt="App Screen 1"
-            className="w-[420px] left-10 top-0 "
+            className="w-[520px]  left-10 top-0 "
           />
         </div>
       </div>
