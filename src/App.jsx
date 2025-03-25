@@ -9,7 +9,7 @@ import DownloadCard from "./page/DownloadCard";
 import Textdetail from "./page/Textdetail";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <>
