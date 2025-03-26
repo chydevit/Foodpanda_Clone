@@ -14,11 +14,11 @@ export default function DownloadCard() {
           </h2>
           <div className="flex items-center gap-4">
             {/* QR Code Placeholder */}
-            <div className=" bg-white rounded-lg flex items-center justify-center">
+            <div className=" bg-black rounded-lg flex items-center justify-center">
               <img
-                src="src/assets/QR.jpg"
+                src="https://images.deliveryhero.io/image/foodpanda/homepage/khhomepageqrcode.png"
                 alt="QR Code"
-                className="w-50 h-50 rounded-md"
+                className="w-40 h-40rounded-md"
               />
             </div>
             <p className="text-sm">
@@ -49,7 +49,7 @@ export default function DownloadCard() {
         {/* Right Section - Mobile Screens */}
         <div className="relative flex-1 ">
           <img
-            src="src/assets/home-foodpanda-apps.webp"
+            src="https://images.deliveryhero.io/image/foodpanda/home-foodpanda-apps.png?width=2000&height=1590"
             alt="App Screen 1"
             className="w-[520px]  left-10 top-0 "
           />
