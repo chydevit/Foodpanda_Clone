@@ -73,6 +73,45 @@ const country = [
   "Western",
   "Bubble tea",
 ];
+const cambodai = [
+"Phnom Penh",
+"Siem Reap",
+"Battambang",
+"Ta Khmau",
+"Kampong Cham",
+"Kampot",
+"Myanmar",
+"Laos", 
+"Thailand", 
+"Singapore",  
+"Malaysia",
+"Philippines",
+"Taiwan",  
+"Hong Kong",  
+"Pakistan",  
+"Bangladesh",
+];
+const foodpanda = [
+ " Help Center",
+"Terms and Conditions",
+"Privacy Policy",
+"foodpanda Deals",
+"foodpanda shops",
+"Join foodpanda",
+"pandasend - ស្នើសុំអ្នកដឹកជញ្ជូន",
+"Become an Affiliate",
+"All cities",
+"Areas delivered in Phnom Penh",
+"Areas delivered in Siem Reap",
+"Areas delivered in Battambang",
+"Areas delivered in Serei Saophoan",
+"Areas delivered in Poipet",
+"Areas delivered in Ta Khmau",
+"Areas delivered in Sihanoukville",
+"Areas delivered in Samraong",
+"Areas delivered in Pursat",
+"Areas delivered in Stueng Saen",
+];
 export default function Textdetail() {
   return (
     <div>
@@ -229,22 +268,57 @@ export default function Textdetail() {
         </div>
       </div>
       {/* for list contry */}
-      <div className="text-left py-20 mx-5 md:mx-20 mt-4 ">
+      <div className="text-left py-10 mx-5 md:mx-20 mt-4 ">
         <hr className="w-full border-t-2 border-gray-400 my-4" />
         <h2 className="font-bold mt-6 text-lg">
           Popular cuisines available for delivery in Phnom Penh so far
         </h2>
-        <div className="text-center text-gray-700 text-lg mt-4">
+        <div className="grid grid-cols-4 gap-4 text-gray-700 text-lg mt-3">
           {country.map((name, index) => (
-            <span key={index} className="inline-block mx-2">
-              {index !== 0 && " | "}{" "}
-              <a
-                href="#"
-                className="underline hover:text-blue-500relative after:block after:h-[2px] after:bg-black after:w-0 hover:after:w-full after:transition-all after:duration-300"
-              >
-                {name}
-              </a>
-            </span>
+            <a
+              key={index}
+              href="#"
+              className="block underline hover:text-black relative after:block after:h-[2px] after:bg-black after:w-0 hover:after:w-20 after:transition-all after:duration-300"
+            >
+              {name}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      {/* foodpanda Cambodia available in these cities... */}
+      <div className="text-left py-10 mx-5 md:mx-20 mt-3">
+        <hr className="w-full border-t-2 border-gray-400 my-4" />
+        <h2 className="font-bold mt-6 text-lg">
+          foodpanda Cambodia available in these cities...
+        </h2>
+        <div className="grid grid-cols-2 gap-4 text-gray-700 text-lg mt-3 text-center">
+          {cambodai.map((name, index) =>(
+           <a 
+           key={index} 
+           href="#"
+           className="block hover:underline hover:text-black"
+           >
+            {name}
+           </a>
+          ))}
+        </div>
+      </div>
+      {/* © foodpanda */}
+      <div className="text-left py-10 mx-5 md:mx-20 mt-3">
+        <hr className="w-full border-t-2 border-gray-400 my-4" />
+        <h2 className="text-gray-400 mt-6 text-lg">
+        © foodpanda
+        </h2>
+        <div className="grid grid-cols-3 gap-4 text-gray-700 text-lg mt-3 text-center">
+          {foodpanda.map((name, index) =>(
+           <a 
+           key={index} 
+           href="#"
+           className="block hover:underline hover:text-black"
+           >
+            {name}
+           </a>
           ))}
         </div>
       </div>
